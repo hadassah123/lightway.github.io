@@ -66,10 +66,24 @@ body{
     color: var(--primary-clr);
 }
 
-.hidden {
-    opacity: 0;
-    transition: all 1s;
-}
-.show {
-    opacity: 1;
-}
+.footer { 
+    background-color: #000; 
+} 
+
+.footer-content h2 { 
+    color: #fff; 
+} 
+
+.footer-content h5, 
+.footer-content p, 
+.footer-links a { 
+    color: #fff; 
+} 
+
+.footer-links a:hover { 
+    text-decoration: underline; 
+} 
+
+.footer hr { 
+    background-color: #fff; 
+} 
